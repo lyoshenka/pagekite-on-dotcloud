@@ -1,6 +1,6 @@
 # Pagekite On dotCloud
 
-Run your own [Pagekite](http://pagekite.net/) server on dotCloud for free. Zero configuration, just clone and deploy.
+Run your own [Pagekite](http://pagekite.net/) server on [dotCloud](http://www.dotcloud.com) for free. Zero configuration, just clone and deploy.
 
 Pagekite is an awesome reverse proxy that exposes your local services on the web. 
 
