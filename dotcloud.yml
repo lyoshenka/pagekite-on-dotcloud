@@ -1,0 +1,7 @@
+pagekite:
+  type: custom
+  buildscript: builder
+  process: ~/run
+  ports:
+    www: http
+    tcp: tcp

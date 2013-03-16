@@ -1,0 +1,4 @@
+.DS_Store
+.dotcloud
+venv
+*.pyc
