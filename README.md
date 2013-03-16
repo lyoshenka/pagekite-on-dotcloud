@@ -21,11 +21,15 @@ Sign up for a free dotCloud account and install the CLI using [these](http://doc
 
 ### Fly your kite
 
-Get the connection instructions by running `dotcloud run pagekite -- cat connect_instructions`
+Get the connection instructions by running `./conn_info`
 
 ### Config (optional)
 
 To set your own Pagekite secret, run `dotcloud env set PAGEKITE_SECRET=your_secret_here`
+
+## Limitations
+
+Only HTTP tunneling is supported for now. I can't figure out how to make it work for SSH or anything else. If you know how, please help.
 
 ## Fork Me
 

@@ -36,6 +36,6 @@ conn_cmd.write("# pagekite.py --frontend={host}:{port} --service_on=http:{host}:
 conn_cmd.write("# Replace PORT with the port your local service is running on.\n\n");
 conn_cmd.close();
 
-args = ['python','./pagekite.py','--isfrontend','--ports='+www_port+','+tcp_port, '--domain=http:'+host+':'+secret]
+args = ['python','./pagekite.py','--isfrontend','--ports='+www_port+','+tcp_port, '--domain=*:'+host+':'+secret]
 #print args
 os.execvp('python', args)
