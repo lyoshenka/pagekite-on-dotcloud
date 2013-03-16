@@ -16,11 +16,16 @@ Sign up for a free dotCloud account and install the CLI using [these](http://doc
     cd pagekite-on-dotcloude
     dotcloud setup
     dotcloud create pagekite
+    dotcloud connect pagekite
     dotcloud push
 
 ### Fly your kite
 
 Get the connection instructions by running `dotcloud run pagekite -- cat connect_instructions`
+
+### Config (optional)
+
+To set your own Pagekite secret, run `dotcloud env set PAGEKITE_SECRET=your_secret_here`
 
 ## Fork Me
 
