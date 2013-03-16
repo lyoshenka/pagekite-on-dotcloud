@@ -12,12 +12,15 @@ Sign up for a free dotCloud account and install the CLI using [these](http://doc
 
 ### Create this app
 
-    git clone http://docs.dotcloud.com/firststeps/install/
+    git clone git@github.com:lyoshenka/pagekite-on-dotcloud.git
+    cd pagekite-on-dotcloude
+    dotcloud setup
+    dotcloud create pagekite
     dotcloud push
 
 ### Fly your kite
 
-Get the connection instructions by running `dotcloud run APPNAME -- cat connect_instructions`
+Get the connection instructions by running `dotcloud run pagekite -- cat connect_instructions`
 
 ## Fork Me
 
